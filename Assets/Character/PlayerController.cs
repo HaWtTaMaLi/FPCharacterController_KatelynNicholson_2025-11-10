@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Player;
+
     public int speed = 5;
-    public float mouseSensitivity = 100f;
 
     private void Start()
     {
@@ -13,8 +13,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Horizontal"); //W && S
+        float z = Input.GetAxis("Vertical"); //A && D
 
         Vector3 move = transform.right * x + transform.forward * z;
 
