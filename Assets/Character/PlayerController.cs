@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        //hide cursor
         Cursor.lockState = CursorLockMode.Locked;
     }
 
