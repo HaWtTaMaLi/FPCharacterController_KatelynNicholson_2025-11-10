@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject Player;
+    public int speed = 5;
+    public float mouseSensitivity = 100f;
+
     private void Start()
     {
         
@@ -12,7 +16,9 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        Vector3 move = new Vector3(x, 0f, z);
+        Vector3 move = transform.right * x + transform.forward * z;
+
+        Player.transform.position += move * speed * Time.deltaTime;
     }
 
 }

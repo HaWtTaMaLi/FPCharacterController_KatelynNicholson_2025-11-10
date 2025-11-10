@@ -10093,6 +10093,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: MainCamera
@@ -10218,6 +10219,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac678883404a0d6428879c7e30cd258c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xRotation: 0
+  mouseSensitivity: 10
+  playerBody: {fileID: 1492189405}
 --- !u!4 &367704139 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6337785395684344607, guid: 3fade24599b3f0145a64bf4d96fefb9a, type: 3}
@@ -23597,10 +23613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e8d2720eccea474593ce5f9c0dc6784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xRotation: 0
-  mouseSensitivity: 100
-  playerBody: {fileID: 128498569}
+  Player: {fileID: 1492189403}
   speed: 5
+  mouseSensitivity: 100
 --- !u!43 &1627553270
 Mesh:
   m_ObjectHideFlags: 0
