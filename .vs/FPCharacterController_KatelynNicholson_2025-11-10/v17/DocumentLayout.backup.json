@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|c:\\katelyn\u0027s unityprojects\\fpcharactercontroller_katelynnicholson_2025-11-10\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\assets\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|c:\\katelyn\u0027s unityprojects\\fpcharactercontroller_katelynnicholson_2025-11-10\\assets\\character\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B8A7-96EE-5337-33CE-B42E64D5E051}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\scripts\\PlayerController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCkAAAA4AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\Character\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Character\\PlayerController.cs",
+              "ToolTip": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\Character\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Character\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:41:30.188Z",
+              "WhenOpened": "2025-11-13T13:50:41.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CameraController.cs",
-              "ToolTip": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\CameraController.cs",
-              "RelativeToolTip": "Assets\\scripts\\CameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\InputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\InputHandler.cs",
+              "ToolTip": "C:\\Katelyn\u0027s UnityProjects\\FPCharacterController_KatelynNicholson_2025-11-10\\Assets\\scripts\\InputHandler.cs",
+              "RelativeToolTip": "Assets\\scripts\\InputHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T19:41:19.782Z",
+              "WhenOpened": "2025-11-13T13:38:12.223Z",
               "EditorCaption": ""
             }
           ]
