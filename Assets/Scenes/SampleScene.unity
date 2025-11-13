@@ -1278,7 +1278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 525370899448754167, guid: 8aa5a47cedddf8c4baa9c2399c4594c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 525370899448754167, guid: 8aa5a47cedddf8c4baa9c2399c4594c9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4265,7 +4265,7 @@ Transform:
   m_GameObject: {fileID: 1492189403}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.015}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4342,6 +4342,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee044cef09a22194aaaf1ad1d628a4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  jumpHight: 1
+  gravity: -9.8
+  controller: {fileID: 1492189411}
+  moveInput: {x: 0, y: 0}
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!136 &1492189410
 CapsuleCollider:
   m_ObjectHideFlags: 0
