@@ -702,7 +702,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
-  m_LocalPosition: {x: 0.002, y: 1.079, z: 0.138}
+  m_LocalPosition: {x: 0.002, y: 0.971, z: 0.199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1258,7 +1258,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1492189405}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 175607426794008398, guid: 8aa5a47cedddf8c4baa9c2399c4594c9, type: 3}
       propertyPath: m_Mesh
@@ -1349,11 +1349,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aa5a47cedddf8c4baa9c2399c4594c9, type: 3}
---- !u!4 &527569361 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 525370899448754167, guid: 8aa5a47cedddf8c4baa9c2399c4594c9, type: 3}
-  m_PrefabInstance: {fileID: 527569360}
-  m_PrefabAsset: {fileID: 0}
 --- !u!43 &583238115
 Mesh:
   m_ObjectHideFlags: 0
@@ -4432,7 +4427,6 @@ Transform:
   m_Children:
   - {fileID: 330585546}
   - {fileID: 1848172174}
-  - {fileID: 527569361}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1492189407
@@ -4504,13 +4498,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee044cef09a22194aaaf1ad1d628a4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpHight: 1
-  gravity: -9.8
-  controller: {fileID: 1492189411}
-  moveInput: {x: 0, y: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  isGrounded: 1
+  playerControls:
+    m_Name: Player Controls
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 817c4d96-26de-4a43-bc5f-38d587c12f02
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  actionMapName: Player
+  movement: Movement
+  rotation: Rotation
+  jump: Jump
+  sprint: Sprint
+  interact: Interact
+  walkSpeed: 1
+  sprintSpeed: 2
+  jumpForce: 5
+  gravityForce: 1
+  mouseSensitivity: 0.1
+  upDownLookRange: 2
 --- !u!136 &1492189410
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10384,4 +10392,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 1089245173}
+  - {fileID: 527569360}
   - {fileID: 1492189405}
