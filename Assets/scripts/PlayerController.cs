@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveInput;
     public Vector3 velocity;
 
+    public bool isGrounded = true;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -24,7 +26,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump()
     {
-
+        //somewhere in here isGroundedm = false
+        //isGrounded = false;
     }
 
     void Update()
