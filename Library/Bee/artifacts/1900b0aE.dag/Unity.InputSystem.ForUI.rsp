@@ -388,9 +388,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Library/PackageCache/com.unity.inputsystem@552acc76aabe/InputSystem/Plugins/InputForUI/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.inputsystem@552acc76aabe/InputSystem/Plugins/InputForUI/InputActionAssetVerifier.cs"
-"Library/PackageCache/com.unity.inputsystem@552acc76aabe/InputSystem/Plugins/InputForUI/InputSystemProvider.cs"
+"Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/InputForUI/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/InputForUI/InputActionAssetVerifier.cs"
+"Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/InputForUI/InputSystemProvider.cs"
 -langversion:9.0
 /deterministic
 /optimize+
